@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta name="viewport" content="width=1000">
+    <title>Navbar Tanpa Bootstrap</title>
+    <style>
+        /* S
+        
+       
+        tyle Navbar */
+        
+        
+        body{
+          background-color:black;
+          
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background:linear-gradient(50deg,purple,blue);
+            padding: 10px;
+            border-radius:20px;
+            transform:translateX(-5px)translateY(50px);
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 20px 80px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size:22px;
+         
+        }
+        .navbar a.active, .navbar a:hover {
+            background-color: white;
+            color: blue;
+        }
+        
+        .wadah{
+       
+        }
+        
+        #vidio{
+          width:1000px;
+          height:580px;
+          height:580px;
+          object-fit:cover;
+          
+          margin:100px -30px 100px;
+         display:block;
+         
+        }
+        
+        
+        #vidio:hover{
+          transform:scale(1.1);
+        }
+        
+        .h4{
+        color:black; 
+        font-family:times new roman;
+        transform:translateY(50px);
+        background-color:white;
+      
+        width:100px;
+        height:30px;
+        align-items:center;
+        text-align:center;
+        border-radius:50px;
+        font-weight:800;
+        line-height:28px;
+        }
+        
+        
+        
+         p{
+          color:white;
+         font-size:26px;
+         font-family:'Anton',sans-serif;
+         font-weight:300;
+         transform:translateY(-80px);
+        }
+
+        .img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            transform: translateX(-1px) translateY(20px);
+        }
+        
+        .upload{
+          font-size:12px;
+          font-weight:100;
+        }
+        
+    </style>
+</head>
+<body>
+<img class="img" src="C:\Users\ADVAN\OneDrive\Desktop\coba liburan\image2\logo.jpeg">
+    <div class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="profile.html" class="nav-link">Profile</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+    <div class="wadah">
+     
+    <h4 class="h4" >© ROUSTZ</h4>
+    
+    
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+   <p>MAKAN GACOAN PART 1</p>
+   <p class="upload">Di Upload Senin 03 Maret 2025 oleh Ikhwan Marditya Nurhidayat</p>
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+   <p>MAKAN GACOAN PART 2</p>
+
+    
+    <video id="vidio" controls>
+      <source src"">
+    </video>
+    
+    <p>SUHI GO SUMARECON BEKASI</p>
+
+    <video id="vidio" controls>
+        <source src"">
+      </video> 
+
+      <p>TENDA STEAK BERSAMA ADEK AYANG</p>
+
+
+      <video id="vidio" controls>
+        <source src"">
+      </video> 
+
+      <p>Mam Kue Ulang tahun Bersama Ayang</p>
+
+
+      <video id="vidio" controls>
+        <source src"">
+      </video> 
+
+      <p>Solaria NASI GORENG DAN CHIKEN SAOS MASAKO</p>
+
+
+      <video id="vidio" controls>
+        <source src"">
+      </video> 
+
+      <P>PUASAAAAAAA</P>
+
+
+      <video id="vidio" controls>
+        <source src"">
+      </video> 
+
+
+      <video id="vidio" controls>
+        <source src"">
+      </video> 
+
+      <video id="vidio" controls>
+        <source src"">
+      </video> 
+
+      <video id="vidio" controls>
+        <source src"">
+      </video>
+      
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+   
+     
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+    
+     
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+    
+      
+    <video id="vidio" controls>
+      <source src"">
+    </video> 
+      
+    </div>
+    
+    <script>
+        const currentPage = window.location.pathname.split("/").pop();
+
+        // Loop semua link navbar
+        document.querySelectorAll(".nav-link").forEach(link => {
+            if (link.getAttribute("href") === currentPage) {
+                link.classList.add("active"); // Tambahkan class "active"
+            }
+        });
+    </script>
+
+</body>
+</html>
